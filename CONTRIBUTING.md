@@ -55,9 +55,13 @@ Do not's:
 - [&cross;] `updates.`
 - [&cross;] `fixes.`
 
+<br>
+
 # Pull Requests
 
 ...
+
+<br>
 
 # Reporting Bugs
 
@@ -66,6 +70,8 @@ is writing on
 [issues tracker](https://github.com/Nsustain/nsustain.com/issues).
 However, if you don't have a GitHub
 account, you can email to soobinrho@nsustain.com
+
+<br>
 
 # Reporting Security Vulnerability
 
