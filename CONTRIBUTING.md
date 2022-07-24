@@ -54,7 +54,9 @@ is writing on
 However, if you don't have a GitHub
 account, you can email to soobinrho@nsustain.com
 
-## ...
+## Reporting Security Vulnerability
+
+Report to security@nsustain.com
 
 
 
