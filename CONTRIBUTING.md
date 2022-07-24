@@ -60,7 +60,11 @@ Do not's:
 
 ## 2. Pull Requests
 
-...
+When you request a pull request,
+GitHub automatically sends an email
+to the maintainers. We'll review
+the pull request and merge the PR
+as promptly as possible.
 
 <br>
 
