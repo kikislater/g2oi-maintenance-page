@@ -26,7 +26,7 @@
 <p align="center">
   <b>
     Code of Conduct<br>
-    [<a href="https://github.com/Nsustain/nsustain.com/blob/main/CODE_OF_CONDUCT.md">Official Guidelines</a>]
+    [<a href="https://github.com/Nsustain/nsustain.com/blob/main/CODE_OF_CONDUCT.md">Official Code of Conduct</a>]
   </b>
 </p>
 
