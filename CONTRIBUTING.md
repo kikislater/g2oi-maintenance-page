@@ -36,6 +36,17 @@
 
 We follow [Tim Pope's guidelines on commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
+Do's:
+- [&check;] `Update docs`
+- [&check;] `Fix whitespaces`
+- [&check;] `Fix notifications overflow`
+
+Do not's:
+- [&cross;] `updates.`
+- [&cross;] `fixes.`
+
+
+
 <!---
 
 Finish Contribution Guidelines.
