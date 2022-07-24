@@ -34,15 +34,22 @@
 <br>
 
 ## Contributing
-[1.](#1-commit-messages) Commit Messages<br>
-[2.](#2-pull-requests) Pull Requests<br>
-[3.](#3-reporting-bugs) Reporting Bugs<br>
-[4.](#4-Reporting-security-vulnerability) Reporting Security Vulnerability<br>
+[1.](#1-coding-conventions) Coding Conventions<br>
+[2.](#2-commit-messages) Commit Messages<br>
+[3.](#3-pull-requests) Pull Requests<br>
+[4.](#4-reporting-bugs) Reporting Bugs<br>
+[5.](#5-Reporting-security-vulnerability) Reporting Security Vulnerability<br>
 
 <br>
 <br>
 
-## 1. Commit Messages
+## 1. Coding Conventions
+
+...
+
+<br>
+
+## 2. Commit Messages
 
 We follow
 [Tim Pope's guidelines on commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
@@ -58,7 +65,7 @@ Do not's:
 
 <br>
 
-## 2. Pull Requests
+## 3. Pull Requests
 
 When you request a pull request,
 GitHub automatically sends an email
@@ -68,7 +75,7 @@ as promptly as possible.
 
 <br>
 
-## 3. Reporting Bugs
+## 4. Reporting Bugs
 
 Preferred method of reporting bugs
 is writing on
@@ -78,7 +85,7 @@ account, email to soobinrho@nsustain.com
 
 <br>
 
-## 4. Reporting Security Vulnerability
+## 5. Reporting Security Vulnerability
 
 Report to security@nsustain.com
 
