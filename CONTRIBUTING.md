@@ -26,7 +26,8 @@
 <p align="center">
   <b>
     Contribution Guidelines
-  </b>
+  </b><br>
+  Thank you for making Nsustain better!
 </p>
 
 <br>
@@ -69,7 +70,7 @@ Preferred method of reporting bugs
 is writing on
 [issues tracker](https://github.com/Nsustain/nsustain.com/issues).
 However, if you don't have a GitHub
-account, you can email to soobinrho@nsustain.com
+account, email to soobinrho@nsustain.com
 
 <br>
 
