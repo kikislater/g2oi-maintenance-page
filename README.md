@@ -114,15 +114,15 @@ docker compose down && docker rmi maintenance-page_webserver && docker compose u
 ```bash
 # tree
 .
-├── CODE_OF_CONDUCT.md    default Code of Conduct provided by GitHub
-├── docker-compose.yml    instructions that run with `docker compose up -d`
-├── Dockerfile            instructions that run with Docker
-├── img                   favicons, social preview picture, `404.svg`
-├── index.html            core source code. If you want to make modifications, it'll most likely happen here
-├── LICENSE               details on our Apache License
-├── manifest.json         metadata of our website
-├── NOTICE.md             `@Eddy-Barraud`'s MIT License
-└── README.md             file you're reading now. Documentation goes here
+├── CODE_OF_CONDUCT.md    # default Code of Conduct provided by GitHub
+├── docker-compose.yml    # instructions that run with `docker compose up -d`
+├── Dockerfile            # instructions that run with Docker
+├── img                   # favicons, social preview picture, `404.svg`
+├── index.html            # core source code. If you want to make modifications, it'll most likely happen here
+├── LICENSE               # details on our Apache License
+├── manifest.json         # metadata of our website
+├── NOTICE.md             # `@Eddy-Barraud`'s MIT License
+└── README.md             # file you're reading now. Documentation goes here
 ```
 
 <br>
