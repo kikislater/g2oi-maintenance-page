@@ -41,7 +41,7 @@
 <br>
 <br>
 
-# 1. Commit Messages
+## 1. Commit Messages
 
 We follow
 [Tim Pope's guidelines on commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
@@ -57,13 +57,13 @@ Do not's:
 
 <br>
 
-# 2. Pull Requests
+## 2. Pull Requests
 
 ...
 
 <br>
 
-# 3. Reporting Bugs
+## 3. Reporting Bugs
 
 Preferred method of reporting bugs
 is writing on
@@ -73,7 +73,7 @@ account, you can email to soobinrho@nsustain.com
 
 <br>
 
-# 4. Reporting Security Vulnerability
+## 4. Reporting Security Vulnerability
 
 Report to security@nsustain.com
 
