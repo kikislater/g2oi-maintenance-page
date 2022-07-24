@@ -34,7 +34,8 @@
 
 ## Commit Messages
 
-We follow [Tim Pope's guidelines on commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+We follow
+[Tim Pope's guidelines on commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
 Do's:
 - [&check;] `Update docs`
@@ -44,6 +45,16 @@ Do's:
 Do not's:
 - [&cross;] `updates.`
 - [&cross;] `fixes.`
+
+## Reporting Bugs
+
+Preferred method of reporting bugs
+is writing on
+[issues tracker](https://github.com/Nsustain/nsustain.com/issues).
+However, if you don't have a GitHub
+account, you can email to soobinrho@nsustain.com
+
+## ...
 
 
 
