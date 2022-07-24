@@ -129,6 +129,10 @@ docker compose down && docker rmi maintenance-page_webserver && docker compose u
 └── README.md
 ```
 
+- `CODE_OF_CONDUCT.md` is
+the default Code of Conduct
+provided by GitHub.
+
 - `docker-compose.yml` contains
 instructions that run when you
 execute `docker compose up -d`.
