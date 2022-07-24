@@ -32,6 +32,15 @@
 <br>
 <br>
 
+## Contributing
+[1.](#1-commit-messages) Commit Messages<br>
+[2.](#2-pull-requests) Pull Requests<br>
+[3.](#3-reporting-bugs) Reporting Bugs<br>
+[4.](#4-Reporting-security-vulnerability) Reporting Security Vulnerability<br>
+
+<br>
+<br>
+
 ## Commit Messages
 
 We follow
@@ -45,6 +54,10 @@ Do's:
 Do not's:
 - [&cross;] `updates.`
 - [&cross;] `fixes.`
+
+## Pull Requests
+
+...
 
 ## Reporting Bugs
 
