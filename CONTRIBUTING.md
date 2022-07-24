@@ -32,9 +32,18 @@
 <br>
 <br>
 
-### Commit Messages
+#### Commit Messages
 
 We follow [Tim Pope's guidelines on commit messages](https://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
+
+<!---
+
+Finish Contribution Guidelines.
+Move this file to the main repository.
+For other files, just link to
+the main repo's CONTRIBUTING.md
+
+-->
 
 
 <br>
