@@ -109,67 +109,21 @@ and then rebuild and redeploy the website.
 docker compose down && docker rmi maintenance-page_webserver && docker compose up -d
 ```
 
-## Repository Folder Structure
+## Project Layout
 
 ```bash
 # tree
 .
-├── CODE_OF_CONDUCT.md
-├── docker-compose.yml
-├── Dockerfile
-├── img
-│   ├── 404.svg
-│   ├── favicon-32x32.png
-│   ├── favicon.ico
-│   ├── ...
-│   └── logo_1280x640.png
-├── index.html
-├── LICENSE
-├── manifest.json
-├── NOTICE.md
-└── README.md
+├── CODE_OF_CONDUCT.md    default Code of Conduct provided by GitHub
+├── docker-compose.yml    instructions that run with `docker compose up -d`
+├── Dockerfile            instructions that run with Docker
+├── img                   favicons, social preview picture, `404.svg`
+├── index.html            core source code. If you want to make modifications, it'll most likely happen here
+├── LICENSE               details on our Apache License
+├── manifest.json         metadata of our website
+├── NOTICE.md             `@Eddy-Barraud`'s MIT License
+└── README.md             file you're reading now. Documentation goes here
 ```
-
-- `CODE_OF_CONDUCT.md` is
-the default Code of Conduct
-provided by GitHub.
-
-- `docker-compose.yml` contains
-instructions that run when you
-execute `docker compose up -d`.
-
-- `Dockerfile` contains
-instructions for Docker, such as
-install the official Nginx image.
-
-- `img` folder contains favicons,
-social preview picture `logo_1280x640.png`,
-and the owl `404.svg`.
-
-- `index.html` is the core source code
-of what you see when you go to our website.
-If you want to make modifications,
-it'll most likely happen here.
-
-- `LICENSE` contains details on
-our Apache License.
-
-- `manifest.json` contains metadata
-of our website. This is used by
-browsers such as Chrome to
-read description of our website,
-where the favicons are located, etc.
-
-- `NOTICE.md` contains
-`@Eddy-Barraud`'s MIT License.
-If his license was Apache as well,
-we could've put his license in our
-license together, but since his is
-not Apache, we've put his license
-seperately on this file.
-
-- `README.md` is the file you're reading now.
-Documentation goes here.
 
 <br>
 <br>
