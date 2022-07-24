@@ -112,6 +112,7 @@ docker compose down && docker rmi maintenance-page_webserver && docker compose u
 ## Repository Folder Structure
 
 ```bash
+# tree
 .
 ├── CODE_OF_CONDUCT.md
 ├── docker-compose.yml
