@@ -54,6 +54,8 @@ for designing and writing this HTML page and
 for designing the owl and
 open-sourcing it.
 
+<br>
+
 ## How we deploy this page to our server
 
 First, ssh into the server you'll host
@@ -108,6 +110,9 @@ and then rebuild and redeploy the website.
 # We use `&&` to execute them fast, minimizing downtime.
 docker compose down && docker rmi maintenance-page_webserver && docker compose up -d
 ```
+
+<br>
+<br>
 
 ## Project Layout
 
