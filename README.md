@@ -114,7 +114,7 @@ docker compose down && docker rmi maintenance-page_webserver && docker compose u
 <br>
 <br>
 
-## Project Layout
+## Repository Layout
 
 ```bash
 # tree
