@@ -118,7 +118,6 @@ docker compose down && docker rmi maintenance-page_webserver && docker compose u
 
 ```bash
 # tree
-.
 ├── CODE_OF_CONDUCT.md    # default Code of Conduct provided by GitHub
 ├── docker-compose.yml    # instructions that run with `docker compose up -d`
 ├── Dockerfile            # instructions that run with Docker
