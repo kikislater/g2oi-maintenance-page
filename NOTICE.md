@@ -32,7 +32,7 @@
 
 Special thanks to @Eddy-Barraud for
 designing and writing this HTML page.
-(MIT License)
+**[[MIT License](https://github.com/Eddy-Barraud/maintenance)]**
 
 ```
 MIT License
