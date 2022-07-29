@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://nsustain.com">
-    <img src="https://raw.githubusercontent.com/Nsustain/.github/main/logo/logo_github.png" width="350">
+    <img src="https://raw.githubusercontent.com/Nsustain/.github/main/logo/logo-github.png" width="350">
   </a>
 </p>
 
@@ -62,9 +62,9 @@ First, ssh into the server you'll host
 your website in.
 
 ```bash
-# 'account_name' and '123.456.789.987'
+# 'account-name' and '123.456.789.987'
 # should be substituted with yours.
-ssh account_name@123.456.789.987
+ssh account-name@123.456.789.987
 ```
 
 We store all our repositories in a folder
@@ -72,7 +72,7 @@ called `git`, but you can store all of these files
 in any folder you want. Clone this repository.
 
 ```bash
-# This creates the folder at `~/home/account_name/git`.
+# This creates the folder at `~/home/account-name/git`.
 mkdir git
 cd git
 
@@ -108,7 +108,7 @@ and then rebuild and redeploy the website.
 ```bash
 # Rebuild and redeploy the webpage.
 # We use `&&` to execute them fast, minimizing downtime.
-docker compose down && docker rmi maintenance-page_webserver && docker compose up -d
+docker compose down && docker rmi maintenance-page-webserver && docker compose up -d
 ```
 
 <br>
@@ -118,7 +118,7 @@ docker compose down && docker rmi maintenance-page_webserver && docker compose u
 
 ```bash
 # tree
-├── CODE_OF_CONDUCT.md    # default Code of Conduct provided by GitHub
+├── CODE-OF-CONDUCT.md    # default Code of Conduct provided by GitHub
 ├── docker-compose.yml    # instructions that run with `docker compose up -d`
 ├── Dockerfile            # instructions that run with Docker
 ├── img                   # favicons, social preview picture, `404.svg`
