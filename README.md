@@ -108,7 +108,7 @@ and then rebuild and redeploy the website.
 ```bash
 # Rebuild and redeploy the webpage.
 # We use `&&` to execute them fast, minimizing downtime.
-docker compose down && docker rmi maintenance-page-webserver && docker compose up -d
+docker compose down && docker rmi maintenance-page_webserver && docker compose up -d
 ```
 
 <br>
