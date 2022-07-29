@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://nsustain.com">
-    <img src="https://raw.githubusercontent.com/Nsustain/.github/main/logo/logo_github.png" width="350">
+    <img src="https://raw.githubusercontent.com/Nsustain/.github/main/logo/logo-github.png" width="350">
   </a>
 </p>
 
@@ -26,7 +26,7 @@
 <p align="center">
   <b>
     Code of Conduct<br>
-    [<a href="https://github.com/Nsustain/nsustain.com/blob/main/CODE_OF_CONDUCT.md">Official Code of Conduct</a>]
+    [<a href="https://github.com/Nsustain/nsustain.com/blob/main/CODE-OF-CONDUCT.md">Official Code of Conduct</a>]
   </b>
 </p>
 
