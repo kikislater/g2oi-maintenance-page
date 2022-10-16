@@ -61,7 +61,7 @@ your website in.
 
 ```bash
 # 'account-name' and '123.456.789.987'
-# should be substituted with yours.
+# should be substituted with yours
 ssh account-name@123.456.789.987
 ```
 
@@ -70,11 +70,11 @@ called `git`, but you can store all of these files
 in any folder you want. Clone this repository.
 
 ```bash
-# This creates the folder at `~/home/account-name/git`.
+# This creates the folder at `~/home/account-name/git`
 mkdir git
 cd git
 
-# Clone this repository.
+# Clone this repository
 git clone https://github.com/Nsustain/maintenance-page.git
 cd maintenance-page
 ```
@@ -84,14 +84,14 @@ which is based on the official docker nginx image.
 **[[Docker Hub](https://hub.docker.com/_/nginx)]**
 Run the following commands, which basically
 downloads the official nginx image,
-copies `index.html` and `img/` into the
+mounts `index.html` and `img/` to the
 `/usr/share/nginx/html/` directory inside the image,
 and listens to the port 80 for http traffic and
 the port 443 for https traffic.
 
 ```bash
 # The nginx server will start and keep running
-# until you type in `docker compose down`.
+# until you type in `docker compose down`
 docker compose up -d
 ```
 
@@ -104,9 +104,8 @@ your webpage, make changes to index.html
 and then rebuild and redeploy the website.
 
 ```bash
-# Rebuild and redeploy the webpage.
-# We use `&&` to execute them fast, minimizing downtime.
-docker compose down && docker rmi maintenance-page_webserver && docker compose up -d
+# Rebuild and redeploy the webpage
+docker compose down && docker compose up -d
 ```
 
 <br>
@@ -117,7 +116,6 @@ docker compose down && docker rmi maintenance-page_webserver && docker compose u
 ```bash
 # tree
 ├── docker-compose.yml    # instructions that run with `docker compose up -d`
-├── Dockerfile            # instructions that run with Docker
 ├── img                   # favicons, social preview picture, `404.svg`
 ├── index.html            # core source code. If you want to make modifications, it'll most likely happen here
 ├── LICENSE               # details on our Apache License
