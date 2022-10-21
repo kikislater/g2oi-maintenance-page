@@ -11,4 +11,4 @@ services:
     volumes:
       - ./index.html:/usr/share/nginx/html/index.html
       - ./manifest.json:/usr/share/nginx/html/manifest.json
-      - ./img:/usr/share/nginx/html/img
+      - ./img/:/usr/share/nginx/html/img/
