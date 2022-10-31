@@ -21,6 +21,6 @@ LABEL com.nsustain.maintainer="Soobin Rho <soobinrho@nsustain.com>"
 ENV NGINX_HOST="nsustain.com"
 ENV NGINX_PORT="80"
 
-ADD ./index.html /usr/share/nginx/html/index.html
-ADD ./manifest.json /usr/share/nginx/html/manifest.json
-ADD ./img /usr/share/nginx/html/img
+COPY ./index.html /usr/share/nginx/html/index.html
+COPY ./manifest.json /usr/share/nginx/html/manifest.json
+COPY ./img /usr/share/nginx/html/img
