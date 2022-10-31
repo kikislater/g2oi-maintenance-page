@@ -54,59 +54,31 @@ open-sourcing it.
 
 <br>
 
-## How we deploy this page to our server
+## How we deploy this to our server
 
-First, ssh into the server you'll host
-your website in.
-
+***SSH into the server***<br>
 ```bash
 # 'account-name' and '123.456.789.987'
 # should be substituted with yours
 ssh account-name@123.456.789.987
 ```
 
-We store all our repositories in a folder
-called `git`, but you can store all of these files
-in any folder you want. Clone this repository.
+<br>
 
+***Run***<br>
 ```bash
-# This creates the folder at `~/home/account-name/git`
-mkdir git
-cd git
-
-# Clone this repository
-git clone https://github.com/Nsustain/maintenance-page.git
-cd maintenance-page
+docker run --rm -p 80:80 nsustain/maintenance-page
 ```
 
-Finally, we use Docker Compose to run our image,
-which is based on the official docker nginx image.
-**[[Docker Hub](https://hub.docker.com/_/nginx)]**
-Run the following commands, which basically
-downloads the official nginx image,
-mounts `index.html` and `img/` to the
+Now, the maintenance page is online at
+both `http://localhost` and `http://127.0.0.1`.
+
+[nsustain/maintenance-page](https://hub.docker.com/repository/docker/nsustain/maintenance-page)
+is based on https://hub.docker.com/_/nginx image.
+In Dockerfile, it first copies `maintenance-page/index.html`
+and `maintenance-page/img/*` to the
 `/usr/share/nginx/html/` directory inside the image,
-and listens to the port 80 for http traffic and
-the port 443 for https traffic.
-
-```bash
-# The nginx server will start and keep running
-# until you type in `docker compose down`
-docker compose up -d
-```
-
-Now, type in your server's ip address on your
-web browser. The website should now be online.
-
-
-Plus, if you'd like to make any change to
-your webpage, make changes to index.html
-and then rebuild and redeploy the website.
-
-```bash
-# Rebuild and redeploy the webpage
-docker compose down && docker compose up -d
-```
+and exposes port 80 for http traffic.
 
 <br>
 <br>
@@ -115,7 +87,7 @@ docker compose down && docker compose up -d
 
 ```bash
 # tree
-├── docker-compose.yml    # instructions that run with `docker compose up -d`
+├── Dockerfile            # this is what we use for building nsustain/maintenance-page image
 ├── img                   # favicons, social preview picture, `404.svg`
 ├── index.html            # core source code. If you want to make modifications, it'll most likely happen here
 ├── LICENSE               # details on our Apache License
