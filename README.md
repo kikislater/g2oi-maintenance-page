@@ -70,10 +70,12 @@ ssh account-name@123.456.789.987
 docker run --rm -p 80:80 nsustain/maintenance-page
 ```
 
+<br>
+
 Now, the maintenance page is online at
 both `http://localhost` and `http://127.0.0.1`.
 
-[nsustain/maintenance-page](https://hub.docker.com/repository/docker/nsustain/maintenance-page)
+Our [nsustain/maintenance-page](https://hub.docker.com/repository/docker/nsustain/maintenance-page) image
 is based on https://hub.docker.com/_/nginx image.
 In Dockerfile, it first copies `maintenance-page/index.html`
 and `maintenance-page/img/*` to the
