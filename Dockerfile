@@ -8,7 +8,7 @@
 #   docker build -t nsustain/maintenance-page:1.0 -t nsustain/maintenance-page:latest .
 #   sudo docker push nsustain/maintenance-page --all-tags
 # -------------------------------------------------------------------
-FROM nginx:stable-alpine
+FROM nginx:mainline
 
 # "Users SHOULD use reverse-DNS notation to prevent labels from
 # conflicting with those used by other software."
