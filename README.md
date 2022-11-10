@@ -67,7 +67,7 @@ ssh account-name@123.456.789.987
 
 ***Run***<br>
 ```bash
-docker run --rm -p 80:80 nsustain/maintenance-page
+docker run -d --rm -p 80:80 nsustain/maintenance-page
 ```
 
 <br>
