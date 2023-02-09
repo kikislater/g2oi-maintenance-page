@@ -1,6 +1,6 @@
 {
-  "short_name": "Nsustain",
-  "name": "Nsustain",
+  "short_name": "G2OI",
+  "name": "G2OI",
   "icons": [
     {
         "src": "/img/android-chrome-192x192.png",
@@ -18,14 +18,14 @@
   "scope": "/",
   "theme_color": "#ffffff",
   "background_color": "#ffffff",
-  "description": "Find open-source projects for the environment & sustainability. A forum website built for farmers, environmentalists, and programmers.",
+  "description": "Grand Observatoire de l'Océan Indien",
   "screenshots": [
     {
       "src": "/img/logo_1280x640.png",
       "sizes": "1280x640",
       "type": "image/png",
       "platform": "wide",
-      "label": "Nsustain logo"
+      "label": "G2OI logo"
     }
   ]
 }
